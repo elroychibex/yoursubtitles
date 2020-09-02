@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Google Sans"), local("Google Sans"),
+    url("./assets/GoogleSans-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./assets/GoogleSans-Medium.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./assets/GoogleSans-Bold.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+}
+body {
+  font-family: "Google Sans";
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Google Sans";
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
+}
+.input-lg {
+  width: 90vw;
+}
+
+.logo {
+  animation: logo-spin infinite 1s linear;
+  animation-timing-function: ease-in;
+}
+
+@keyframes logo-spin {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
